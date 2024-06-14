@@ -38,4 +38,5 @@ context[ 'block-context/team-members-biocolor' ] && ( bioStyle.color = context[ 
 ```
 
 **Reference Udemy Video:** https://www.udemy.com/course/gutenberg/learn/lecture/30635166#learning-tools
+
 **Reference WordPress Guide:** https://developer.wordpress.org/block-editor/reference-guides/block-api/block-context/
