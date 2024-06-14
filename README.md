@@ -36,3 +36,6 @@ context[ 'block-context/team-members-namecolor' ] && ( nameStyle.color = context
 const bioStyle = {};
 context[ 'block-context/team-members-biocolor' ] && ( bioStyle.color = context[ 'block-context/team-members-biocolor' ] );
 ```
+
+**Reference Udemy Video:** https://www.udemy.com/course/gutenberg/learn/lecture/30635166#learning-tools
+**Reference WordPress Guide:** https://developer.wordpress.org/block-editor/reference-guides/block-api/block-context/
