@@ -28,7 +28,7 @@ Here, I will explain this with an example used in this plugin. I need to pass th
 usesContext: [ 'block-context/team-members-namecolor', 'block-context/team-members-biocolor' ],
 ```
 
-**Child Block index.js File**
+**Child Block edit.js File**
 ```
 const nameStyle = {};
 context[ 'block-context/team-members-namecolor' ] && ( nameStyle.color = context[ 'block-context/team-members-namecolor' ] );
