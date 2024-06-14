@@ -1,0 +1,33 @@
+{
+	"apiVersion": 2,
+	"name": "block-context/team-members",
+	"title": "Team Members",
+	"category": "media",
+	"icon": "groups",
+	"description": "A team members grid.",
+	"keywords": ["Team", "Members", "Grid"],
+	"supports": {
+		"html": false,
+		"align": ["wide"]
+	},
+	"textdomain": "team-members",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"providesContext": {
+		"block-context/team-members-namecolor": "nameColor",
+		"block-context/team-members-biocolor": "bioColor"
+	},
+	"attributes": {
+		"columns": {
+			"type": "number",
+			"default": 2
+		},
+		"nameColor": {
+			"type": "string"
+		},
+		"bioColor": {
+			"type": "string"
+		}
+	}
+}
